@@ -20,6 +20,7 @@ const grid = document.getElementById('pixelCanvas');
         }
     });
 
+/* function to make grid */
 function makeGrid(){
     for (let j=0; j< height.value; j++){ //add row
         const row = grid.insertRow (0);
